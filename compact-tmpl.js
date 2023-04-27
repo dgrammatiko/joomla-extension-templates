@@ -60,7 +60,10 @@ fs.readdirSync(folder).forEach((dir) => {
 if (!fs.existsSync('dist')) {
   fs.mkdirSync('dist');
 }
-fs.writeFileSync('dist/templates.js', `const template = ${JSON.stringify(data, null, 2)};\nexport {template};\n`, { encoding: 'utf-8' });
+fs.writeFileSync('dist/templates.js', `const template = ${JSON.stringify(data, null, 2)};\n\nexport { template };\n`, { encoding: 'utf-8' });
 
 const reserved = JSON.parse(fs.readFileSync('reserved.json'));
-fs.writeFileSync('dist/reserved.js', `const reserved = ${JSON.stringify(reserved, null, 2)};\nexport {reserved};\n`, { encoding: 'utf-8' });
+fs.writeFileSync('dist/reserved.js', `const reserved = ${JSON.stringify(reserved, null, 2)};\n\nexport { reserved };\n`, { encoding: 'utf-8' });
+
+const pluginTypes = JSON.parse(fs.readFileSync('pluginTypes.json'));
+fs.writeFileSync('dist/pluginTypes.js', `const pluginTypes = ${JSON.stringify(pluginTypes, null, 2)};\n\nexport { pluginTypes };\n`, { encoding: 'utf-8' });
