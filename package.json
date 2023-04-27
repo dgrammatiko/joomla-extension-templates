@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Joomla extension templates",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepublishOnly": "np --no-cleanup --yolo --no-publish",
     "bundle": "rm -rf dist && node compact-tmpl.js",
