@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "description": "Some description",
+  "license": "GPL-3.0",
+  "name": "{{extensionNameLowercase}}",
+  "version": "0.0.1",
+  "assets": [
+    {
+      "name": "template.base",
+      "type": "preset",
+      "dependencies": [
+        "template.base#style",
+        "template.base#script"
+      ]
+    },
+    {
+      "name": "template.base",
+      "type": "style",
+      "uri": "styles.min.css"
+    },
+    {
+      "name": "template.base",
+      "type": "script",
+      "uri": "scripts.min.js",
+      "attributes": {
+        "type": "module"
+      },
+      "dependencies": [
+        "template.base.nomodule"
+      ]
+    },
+    {
+      "name": "template.base.nomodule",
+      "type": "script",
+      "uri": "scripts-nomodule.min.js",
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      }
+    }
+  ]
+}

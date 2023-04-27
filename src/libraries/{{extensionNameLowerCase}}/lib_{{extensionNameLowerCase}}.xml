@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade">
+  <name>lib_{{extensionNameLowercase}}</name>
+  <extensionName>{{extensionNamePascal}}</extensionName>
+  <author>{{authorName}}</author>
+  <creationDate>{{date}}</creationDate>
+  <copyright>(C) {{copyright}}</copyright>
+  <license>{{license}}</license>
+  <authorEmail>{{authorEmail}}</authorEmail>
+  <authorUrl>{{authorWebsite}}</authorUrl>
+  <version>0.0.0</version>
+  <description>Some description</description>
+  <namespace path="src">{{companyNamePascal}}\Library\{{extensionNamePascal}}</namespace>
+  <files>
+    <folder library="lib_{{extensionNamePascal}}">src</folder>
+    <filename>{{extensionNameLowercase}}.xml</filename>
+  </files>
+</extension>

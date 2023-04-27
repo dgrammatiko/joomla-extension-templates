@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade" element="com_{{extenstionNameLowercase}}">
+  <name>com_{{extenstionNameLowercase}}</name>
+  <element>com_{{extenstionNameLowercase}}</element>
+  <author>{{authorName}}</author>
+  <creationDate>{{date}}</creationDate>
+  <copyright>(C) {{copyright}}</copyright>
+  <license>{{license}}</license>
+  <authorEmail>{{authorEmail}}</authorEmail>
+  <authorUrl>{{authorWebsite}}</authorUrl>
+  <version>0.0.0</version>
+  <description>Some description</description>
+  <namespace path="src">{{companyNamePascal}}\Component\{{extensionNamePascal}}</namespace>
+  <files folder="site">
+    <folder>src</folder>
+    <folder>tmpl</folder>
+  </files>
+  <media folder="media" destination="com_{{extensionNameLowercase}}">
+    <folder>js</folder>
+    <folder>css</folder>
+    <folder>images</folder>
+  </media>
+  <administration>
+    <files folder="admin">
+      <folder>services</folder>
+    </files>
+  </administration>
+</extension>
