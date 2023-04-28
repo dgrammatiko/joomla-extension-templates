@@ -1,6 +1,6 @@
 {
   "name": "@dgrammatiko/joomla-extension-templates",
-  "version": "0.0.5-alpha2.3",
+  "version": "0.0.5-alpha2.4",
   "description": "Joomla extension templates",
   "type": "module",
   "publishConfig": {
