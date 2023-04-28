@@ -5,7 +5,7 @@
  * {{license}}
  */
 
-namespace {{companyNamePascal}}\Plugin\{{typePascal}}\{{extensionNamePascal}}\Extension;
+namespace {{companyNamePascal}}\Plugin\{{folderNamePascal}}\{{extensionNamePascal}}\Extension;
 
 \defined('_JEXEC') || die;
 

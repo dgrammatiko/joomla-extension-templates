@@ -12,7 +12,7 @@
   <description>Some description</description>
   <namespace path="src">{{companyNamePascal}}\Library\{{extensionNamePascal}}</namespace>
   <files>
-    <folder library="lib_{{extensionNamePascal}}">src</folder>
+    <folder library="lib_{{extensionNameLowercase}}">src</folder>
     <filename>{{extensionNameLowercase}}.xml</filename>
   </files>
 </extension>

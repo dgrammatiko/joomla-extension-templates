@@ -14,7 +14,7 @@ use Joomla\Database\DatabaseInterface;
 use Joomla\DI\Container;
 use Joomla\DI\ServiceProviderInterface;
 use Joomla\Event\DispatcherInterface;
-use {{companyNamePascal}}\Plugin\{{typePascal}}\{{extensionNamePascal}}\Extension\{{extensionNamePascal}};
+use {{companyNamePascal}}\Plugin\{{folderNamePascal}}\{{extensionNamePascal}}\Extension\{{extensionNamePascal}};
 
 return new class implements ServiceProviderInterface
 {

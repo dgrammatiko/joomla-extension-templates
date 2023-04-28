@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="plugin" group="{{typeLowercase}}" method="upgrade">
-	<name>plg_{{typePascal}}_{{extensionNameLowercase}}</name>
+<extension type="plugin" group="{{folderNameLowercase}}" method="upgrade">
+	<name>plg_{{folderNameLowercase}}_{{extensionNameLowercase}}</name>
   <author>{{authorName}}</author>
   <creationDate>{{date}}</creationDate>
   <copyright>(C) {{copyright}}</copyright>
@@ -9,9 +9,9 @@
   <authorUrl>{{authorWebsite}}</authorUrl>
   <version>0.0.0</version>
   <description>Some description</description>
-	<namespace path="src">{{companyNamePascal}}\Plugin\{{typePascal}}\{{extensionNamePascal}}</namespace>
+	<namespace path="src">{{companyNamePascal}}\Plugin\{{folderNamePascal}}\{{extensionNamePascal}}</namespace>
 	<files>
-		<folder plugin="plg_{{typePascal}}_{{extensionNameLowercase}}">services</folder>
+		<folder plugin="plg_{{folderNameLowercase}}_{{extensionNameLowercase}}">services</folder>
 		<folder>src</folder>
 	</files>
 	<config>
