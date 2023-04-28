@@ -1,5 +1,5 @@
 {
-  "component": [
+  "components": [
     "ajax",
     "banners",
     "config",
@@ -19,13 +19,13 @@
     "users",
     "wrapper"
   ],
-  "library": [
+  "libraries": [
     "php-encryption",
     "phpass",
     "src",
     "vendor"
   ],
-  "module": {
+  "modules": {
     "administrator": [
       "menu"
     ],
@@ -33,7 +33,7 @@
       "menu"
     ]
   },
-  "plugin": {
+  "plugins": {
     "actionlog": [
       "joomla"
     ],
@@ -219,7 +219,7 @@
       "publishing"
     ]
   },
-  "template": {
+  "templates": {
     "administrator": [
         "atum"
       ],
