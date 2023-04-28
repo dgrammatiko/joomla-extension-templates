@@ -4,9 +4,10 @@ import dirTree from 'directory-tree';
 
 const folder = 'src';
 const folderMedia = 'media_source';
+let treeMedia = { children: []};
 const data = {};
 const addContent = (item) => item.type === 'file' ? fs.readFileSync(item.path, {encoding: 'utf8'}) : '';
-const fixPath = (item, php, ext) => php ? item.path : item.path
+const fixPath = (item, php, ext) => php ? item.path.replace(`src${sep}root${sep}`, '') : item.path
       .replace(`components${sep}`, '')
       .replace(`libraries${sep}`, '')
       .replace(`modules${sep}`, '')
@@ -41,18 +42,21 @@ fs.readdirSync(folder).forEach((dir) => {
     }
   });
 
-  if (!existsSync(`${folderMedia}/${dir}`)) return;
-  const treeMedia = dirTree(`${folderMedia}/${dir}`, {attributes:['type']});
+  if (!existsSync(`${folderMedia}/${dir}`)) {
+    treeMedia = { children: [] };
+  } else {
+    treeMedia = dirTree(`${folderMedia}/${dir}`, {attributes:['type']});
 
-  treeMedia.children.forEach((child) => {
-    if (child.children) {
-      recurs(child, false, dir);
-      child.path = fixPath(child, false, dir);
-    } else {
-      child.contents = addContent(child, false, dir)
-      child.path = fixPath(child, false, dir);
-    }
-  });
+    treeMedia.children.forEach((child) => {
+      if (child.children) {
+        recurs(child, false, dir);
+        child.path = fixPath(child, false, dir);
+      } else {
+        child.contents = addContent(child, false, dir)
+        child.path = fixPath(child, false, dir);
+      }
+    });
+  }
 
   data[dir] = { php: tree.children, media: treeMedia.children };
 });
