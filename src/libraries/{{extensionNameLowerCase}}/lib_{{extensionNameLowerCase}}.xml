@@ -4,7 +4,7 @@
   <extensionName>{{extensionNamePascal}}</extensionName>
   <author>{{authorName}}</author>
   <creationDate>{{date}}</creationDate>
-  <copyright>(C) {{copyright}}</copyright>
+  <copyright>{{copyright}}</copyright>
   <license>{{license}}</license>
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>

@@ -4,7 +4,7 @@
   <element>com_{{extensionNameLowercase}}</element>
   <author>{{authorName}}</author>
   <creationDate>{{date}}</creationDate>
-  <copyright>(C) {{copyright}}</copyright>
+  <copyright>{{copyright}}</copyright>
   <license>{{license}}</license>
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>
@@ -21,7 +21,7 @@
     <folder>images</folder>
   </media>
   <administration>
-    <files folder="admin">
+    <files folder="administrator">
       <folder>services</folder>
     </files>
   </administration>

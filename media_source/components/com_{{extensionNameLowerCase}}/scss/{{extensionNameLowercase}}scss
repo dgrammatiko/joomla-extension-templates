@@ -1,0 +1,8 @@
+/* {{extensionNamePascal}} */
+
+$key: rebeccapurple;
+
+body {
+  background-color: $key;
+}
+

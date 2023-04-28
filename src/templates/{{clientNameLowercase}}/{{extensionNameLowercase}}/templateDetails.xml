@@ -3,7 +3,7 @@
   <name>{{extensionNameLowercase}}</name>
   <author>{{authorName}}</author>
   <creationDate>{{date}}</creationDate>
-  <copyright>(C) {{year}} {{authorName}}, All Rights Reserved.</copyright>
+  <copyright>{{year}} {{authorName}}, All Rights Reserved.</copyright>
   <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>

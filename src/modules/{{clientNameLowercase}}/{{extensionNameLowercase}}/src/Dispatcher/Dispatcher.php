@@ -1,7 +1,7 @@
 <?php
 
 /**
- * (C) {{copyright}}
+ * {{copyright}}
  * {{license}}
  */
 
