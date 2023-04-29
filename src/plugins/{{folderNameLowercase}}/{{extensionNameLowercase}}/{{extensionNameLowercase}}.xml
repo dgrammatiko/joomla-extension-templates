@@ -11,7 +11,7 @@
   <description>Some description</description>
 	<namespace path="src">{{companyNamePascal}}\Plugin\{{folderNamePascal}}\{{extensionNamePascal}}</namespace>
 	<files>
-		<folder plugin="plg_{{folderNameLowercase}}_{{extensionNameLowercase}}">services</folder>
+		<folder plugin="{{extensionNameLowercase}}">services</folder>
 		<folder>src</folder>
 	</files>
 	<config>
