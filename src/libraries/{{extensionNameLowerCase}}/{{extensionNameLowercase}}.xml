@@ -9,7 +9,7 @@
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>
   <version>{{version}}</version>
-  <description>Some description</description>
+  <description>LIB_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Library\{{extensionNamePascal}}</namespace>
   <files>
     <folder library="{{extensionNameLowercase}}">src</folder>

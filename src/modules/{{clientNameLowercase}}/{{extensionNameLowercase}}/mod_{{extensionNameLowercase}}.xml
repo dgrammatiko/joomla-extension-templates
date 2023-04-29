@@ -8,7 +8,7 @@
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>
   <version>{{version}}</version>
-  <description>Some description</description>
+  <description>MOD_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Module\{{extensionNamePascal}}</namespace>
   <files>
     <folder module="mod_{{extensionNameLowercase}}">services</folder>
