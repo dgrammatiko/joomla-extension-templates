@@ -7,8 +7,8 @@
   <license>{{license}}</license>
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>
-  <version>0.0.0</version>
-  <description>Some description</description>
+  <version>{{version}}</version>
+  <description>MOD_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Module\{{extensionNamePascal}}</namespace>
   <files>
     <folder module="mod_{{extensionNameLowercase}}">services</folder>

@@ -3,7 +3,7 @@
   "description": "Some description",
   "license": "GPL-3.0",
   "name": "{{extensionNameLowercase}}",
-  "version": "0.0.1",
+  "version": "{{version}}",
   "assets": [
     {
       "name": "template.base",

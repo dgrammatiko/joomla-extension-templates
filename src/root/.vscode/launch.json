@@ -9,10 +9,9 @@
       "type": "php",
       "request": "launch",
       "port": 9090
-      // pecl install xdebug
-      // Add to php.ini:
-      // zend_extension=xdebug
-      // Add to conf.d/ext-xdebug.ini:
+      // - pecl install xdebug
+      // - Add to php.ini: zend_extension=xdebug
+      // - Add to conf.d/ext-xdebug.ini:
       // [xdebug]
       // xdebug.mode=debug
       // xdebug.start_with_request=yes

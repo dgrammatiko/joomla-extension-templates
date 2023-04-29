@@ -8,7 +8,7 @@
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>
   <version>0.0.1</version>
-  <description>Some description</description>
+  <description>TPL_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
   <inheritable>1</inheritable>
   <files>
     <folder>html</folder>

@@ -7,8 +7,8 @@
   <license>{{license}}</license>
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>
-  <version>0.0.0</version>
-  <description>Some description</description>
+  <version>{{version}}</version>
+  <description>PLG_{{folderNamePascal}}_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
 	<namespace path="src">{{companyNamePascal}}\Plugin\{{folderNamePascal}}\{{extensionNamePascal}}</namespace>
 	<files>
 		<folder plugin="{{extensionNameLowercase}}">services</folder>
