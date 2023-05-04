@@ -13,6 +13,7 @@
 	<files>
 		<folder plugin="{{extensionNameLowercase}}">services</folder>
 		<folder>src</folder>
+    <folder>language</folder>
 	</files>
 	<config>
 		<fields name="params">

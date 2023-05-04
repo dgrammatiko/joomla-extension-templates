@@ -12,6 +12,7 @@
   <inheritable>1</inheritable>
   <files>
     <folder>html</folder>
+    <folder>language</folder>
     <filename>index.php</filename>
     <filename>error.php</filename>
     <filename>joomla.asset.json</filename>
