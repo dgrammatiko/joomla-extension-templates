@@ -1,8 +1,8 @@
 <?php
 
 /**
- * {{copyright}}
- * {{license}}
+ * @copyright  {{copyright}}
+ * @license    {{license}}
  */
 
 namespace {{companyNamePascal}}\Component\{{extensionNamePascal}}\Site\Controller;
