@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepublishOnly": "np --no-cleanup --yolo --no-publish",
+    "prepublishOnly": "npm run bundle && np --no-cleanup --yolo --no-publish",
     "bundle": "rm -rf dist && node compact-tmpl.js",
     "test": "rm -rf dist && node compact-tmpl.js"
   },
