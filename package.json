@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "directory-tree": "3.5.1",
-    "np": "9.2.0"
+    "np": "10.0.3"
   },
   "files": [
     "dist/"
