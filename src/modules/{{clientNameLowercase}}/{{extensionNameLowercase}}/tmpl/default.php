@@ -11,12 +11,12 @@ use Joomla\CMS\Router\Route;
 
 /** @var $app \Joomla\CMS\Application\CMSApplication */
 $app->getDocument()->getWebAssetManager()->useScript(
-  'mod_jdnl.index',
+  'mod_{{extensionNameLowercase}}.index',
   [],
   ['type' => 'module'],
   ['core']
 )->useStyle(
-  'mod_jdnl.index',
+  'mod_{{extensionNameLowercase}}.index',
   [],
   ['media' => 'screen'],
   []
