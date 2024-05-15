@@ -5,19 +5,5 @@
   "type": "module",
   "publishConfig": {
     "access": "public"
-  },
-  "scripts": {
-    "prepublishOnly": "npm run bundle && np --no-cleanup --yolo --no-publish",
-    "bundle": "rm -rf dist && node compact-tmpl.js",
-    "test": "rm -rf dist && node compact-tmpl.js"
-  },
-  "author": "Dimitris Grammatikogiannis <d.grammatiko@gmail.com> (https://dgrammatiko.online/)",
-  "license": "MIT",
-  "dependencies": {
-    "directory-tree": "3.5.1",
-    "np": "10.0.5"
-  },
-  "files": [
-    "dist/"
-  ]
+  }
 }
