@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "plg_{{folderNameLowercase}}_{{extensionNameLowercase}}",
+  "version": "0.0.0",
+  "description": "",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "plg_{{folderNameLowercase}}_{{extensionNameLowercase}}.index",
+      "type": "script",
+      "uri": "plg_{{folderNameLowercase}}_{{extensionNameLowercase}}/index.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "type": "module"
+      }
+    },
+    {
+      "name": "plg_{{folderNameLowercase}}_{{extensionNameLowercase}}.index",
+      "type": "style",
+      "uri": "plg_{{folderNameLowercase}}_{{extensionNameLowercase}}/index.min.css"
+    }
+  ]
+}

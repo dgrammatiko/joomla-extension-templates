@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_{{extensionNameLowercase}}",
+  "version": "0.0.0",
+  "description": "",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_{{extensionNameLowercase}}.index",
+      "type": "script",
+      "uri": "com_{{extensionNameLowercase}}/index.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "type": "module"
+      }
+    },
+    {
+      "name": "com_{{extensionNameLowercase}}.index",
+      "type": "style",
+      "uri": "com_{{extensionNameLowercase}}/index.min.css"
+    }
+  ]
+}

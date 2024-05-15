@@ -26,17 +26,8 @@
         "type": "module"
       },
       "dependencies": [
-        "template.base.nomodule"
+        "core"
       ]
-    },
-    {
-      "name": "template.base.nomodule",
-      "type": "script",
-      "uri": "scripts-nomodule.min.js",
-      "attributes": {
-        "nomodule": true,
-        "defer": true
-      }
     }
   ]
 }

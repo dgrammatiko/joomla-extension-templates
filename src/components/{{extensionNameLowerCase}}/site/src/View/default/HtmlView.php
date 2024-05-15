@@ -25,7 +25,8 @@ class HtmlView extends BaseHtmlView
    *
    * @return  mixed  A string if successful, otherwise a JError object.
    */
-  public function display($tpl = null) {
+  public function display($tpl = null)
+  {
     $app    = Factory::getApplication();
     $params = $app->getParams();
     $title  = $params->get('page_title', '');

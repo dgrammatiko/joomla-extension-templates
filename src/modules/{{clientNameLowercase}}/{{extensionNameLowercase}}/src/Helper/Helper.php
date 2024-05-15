@@ -13,13 +13,12 @@ use Joomla\CMS\Factory;
 
 class {{extensionNamePascal}}Helper
 {
-  public static function testAjax()
+  public static function testAjax(): array
   {
-    $app = Factory::getApplication();
-    if (!$app->getSession()->checkToken()) {
-      throw new \Exception('Not Allowed');
-    }
+    // Consider checking the token!
+    // $app = Factory::getApplication();
+    // if (!Session::checkToken('request')) throw new \Exception('Not Allowed');
 
-    return ['test' => true, 'message' => 'in a bottle'];
+    return ['test' => true, 'message' => 'Message in a bottle'];
   }
 }

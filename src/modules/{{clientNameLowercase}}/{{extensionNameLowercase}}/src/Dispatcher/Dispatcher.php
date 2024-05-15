@@ -19,6 +19,10 @@ class Dispatcher extends AbstractModuleDispatcher implements HelperFactoryAwareI
 
   protected function getLayoutData()
   {
+    // Register the module assets
+    $wa = $this->getApplication()->getDocument()->getWebAssetManager();
+    $wa->getRegistry()->addExtensionRegistryFile('mod_{{extensionNameLowercase}}');
+
     //$this->getHelperFactory()->getHelper('{{extensionNamePascal}}Helper')->getXxxx($data['params'], $this->getApplication());
     return parent::getLayoutData();
   }

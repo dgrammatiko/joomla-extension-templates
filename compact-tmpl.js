@@ -28,6 +28,9 @@ function recurs(item, php) {
 }
 
 fs.readdirSync(folder).forEach((dir) => {
+  if (['.', '..', '.DS_Store'].includes(dir)) {
+    return;
+  }
   const tree = dirTree(`${folder}/${dir}`, {attributes:['type']});
 
   if (tree.children && tree.children.length) {
@@ -71,7 +74,8 @@ if (!fs.existsSync('dist')) {
 
 const reserved = JSON.parse(fs.readFileSync('reserved.json'));
 const pluginTypes = JSON.parse(fs.readFileSync('pluginTypes.json'));
-const outputText = `const template = ${JSON.stringify(data, null, 2)};
+const outputText = `/** DATA **/
+const template = ${JSON.stringify(data, null, 2)};
 const reserved = ${JSON.stringify(reserved, null, 2)};
 const pluginTypes = ${JSON.stringify(pluginTypes, null, 2)};
 export { template, reserved, pluginTypes };
