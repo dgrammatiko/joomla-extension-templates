@@ -1,14 +1,14 @@
 {
   "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "lib_{{extensionNameLowercase}}",
+  "name": "lib_{{extensionNameLowerCase}}",
   "version": "0.0.0",
   "description": "",
   "license": "GPL-2.0-or-later",
   "assets": [
     {
-      "name": "lib_{{extensionNameLowercase}}.index",
+      "name": "lib_{{extensionNameLowerCase}}.index",
       "type": "script",
-      "uri": "lib_{{extensionNameLowercase}}/index.min.js",
+      "uri": "lib_{{extensionNameLowerCase}}/index.min.js",
       "dependencies": [
         "core"
       ],
@@ -17,9 +17,9 @@
       }
     },
     {
-      "name": "lib_{{extensionNameLowercase}}.index",
+      "name": "lib_{{extensionNameLowerCase}}.index",
       "type": "style",
-      "uri": "lib_{{extensionNameLowercase}}/index.min.css"
+      "uri": "lib_{{extensionNameLowerCase}}/index.min.css"
     }
   ]
 }

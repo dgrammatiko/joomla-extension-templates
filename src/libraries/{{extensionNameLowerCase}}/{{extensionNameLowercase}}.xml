@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="library" method="upgrade">
-  <name>lib_{{extensionNameLowercase}}</name>
-  <libraryname>{{extensionNameLowercase}}</libraryname>
+  <name>lib_{{extensionNameLowerCase}}</name>
+  <libraryname>{{extensionNameLowerCase}}</libraryname>
   <author>{{authorName}}</author>
   <creationDate>{{date}}</creationDate>
   <copyright>{{copyright}}</copyright>
@@ -9,10 +9,10 @@
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>
   <version>{{version}}</version>
-  <description>LIB_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
+  <description>LIB_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Library\{{extensionNamePascal}}</namespace>
   <files>
-    <folder library="{{extensionNameLowercase}}">src</folder>
-    <filename>{{extensionNameLowercase}}.xml</filename>
+    <folder library="{{extensionNameLowerCase}}">src</folder>
+    <filename>{{extensionNameLowerCase}}.xml</filename>
   </files>
 </extension>

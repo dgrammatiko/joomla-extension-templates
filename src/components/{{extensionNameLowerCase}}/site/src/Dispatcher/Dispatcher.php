@@ -12,7 +12,7 @@ namespace {{companyNamePascal}}\Component\{{extensionNamePascal}}\Site\Dispatche
 use Joomla\CMS\Dispatcher\ComponentDispatcher;
 
 /**
- * ComponentDispatcher class for com_{{extensionNameLowercase}}
+ * ComponentDispatcher class for com_{{extensionNameLowerCase}}
  */
 class Dispatcher extends ComponentDispatcher
 {

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-  <layout title="COM_{{extensionNameUppercase}}_VIEW_DEFAULT_TITLE" option="COM_{{extensionNameUppercase}}_VIEW_DEFAULT_OPTION">
+  <layout title="COM_{{extensionNameUpperCase}}_VIEW_DEFAULT_TITLE" option="COM_{{extensionNameUpperCase}}_VIEW_DEFAULT_OPTION">
     <message>
-      <![CDATA[COM_{{extensionNameUppercase}}_VIEW_DEFAULT_DESC]]>
+      <![CDATA[COM_{{extensionNameUpperCase}}_VIEW_DEFAULT_DESC]]>
     </message>
   </layout>
 </metadata>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="component" method="upgrade" element="com_{{extensionNameLowercase}}">
-	<name>com_{{extensionNameLowercase}}</name>
-	<element>com_{{extensionNameLowercase}}</element>
+<extension type="component" method="upgrade" element="com_{{extensionNameLowerCase}}">
+	<name>com_{{extensionNameLowerCase}}</name>
+	<element>com_{{extensionNameLowerCase}}</element>
 	<author>{{authorName}}</author>
 	<creationDate>{{date}}</creationDate>
 	<copyright>{{copyright}}</copyright>
@@ -9,14 +9,14 @@
 	<authorEmail>{{authorEmail}}</authorEmail>
 	<authorUrl>{{authorWebsite}}</authorUrl>
 	<version>{{version}}</version>
-	<description>COM_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
+	<description>COM_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
 	<namespace path="src">{{companyNamePascal}}\Component\{{extensionNamePascal}}</namespace>
 	<files folder="site">
 		<folder>src</folder>
 		<folder>tmpl</folder>
 		<folder>language</folder>
 	</files>
-	<media folder="media" destination="com_{{extensionNameLowercase}}">
+	<media folder="media" destination="com_{{extensionNameLowerCase}}">
 		<folder>js</folder>
 		<folder>css</folder>
 		<folder>images</folder>

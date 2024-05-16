@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="plugin" group="{{folderNameLowercase}}" method="upgrade">
-	<name>plg_{{folderNameLowercase}}_{{extensionNameLowercase}}</name>
+<extension type="plugin" group="{{folderNameLowerCase}}" method="upgrade">
+	<name>plg_{{folderNameLowerCase}}_{{extensionNameLowerCase}}</name>
 	<author>{{authorName}}</author>
 	<creationDate>{{date}}</creationDate>
 	<copyright>{{copyright}}</copyright>
@@ -8,14 +8,14 @@
 	<authorEmail>{{authorEmail}}</authorEmail>
 	<authorUrl>{{authorWebsite}}</authorUrl>
 	<version>{{version}}</version>
-	<description>PLG_{{folderNamePascal}}_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
+	<description>PLG_{{folderNamePascal}}_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
 	<namespace path="src">{{companyNamePascal}}\Plugin\{{folderNamePascal}}\{{extensionNamePascal}}</namespace>
 	<files>
-		<folder plugin="{{extensionNameLowercase}}">services</folder>
+		<folder plugin="{{extensionNameLowerCase}}">services</folder>
 		<folder>src</folder>
 		<folder>language</folder>
 	</files>
-	<media folder="media" destination="plg_{{folderNameLowercase}}_{{extensionNameLowercase}}">
+	<media folder="media" destination="plg_{{folderNameLowerCase}}_{{extensionNameLowerCase}}">
 		<folder>js</folder>
 		<folder>css</folder>
 		<folder>images</folder>

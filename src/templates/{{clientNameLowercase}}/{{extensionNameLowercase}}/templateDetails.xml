@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="template" client="{{clientNameLowercase}}" method="upgrade">
-	<name>{{extensionNameLowercase}}</name>
+<extension type="template" client="{{clientNameLowerCase}}" method="upgrade">
+	<name>{{extensionNameLowerCase}}</name>
 	<author>{{authorName}}</author>
 	<creationDate>{{date}}</creationDate>
 	<copyright>{{year}} {{authorName}}, All Rights Reserved.</copyright>
@@ -8,7 +8,7 @@
 	<authorEmail>{{authorEmail}}</authorEmail>
 	<authorUrl>{{authorWebsite}}</authorUrl>
 	<version>0.0.1</version>
-	<description>TPL_{{extensionNameUppercase}}_XML_DESCRIPTION</description>
+	<description>TPL_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
 	<inheritable>1</inheritable>
 	<files>
 		<folder>html</folder>
@@ -18,7 +18,7 @@
 		<filename>joomla.asset.json</filename>
 		<filename>templateDetails.xml</filename>
 	</files>
-	<media folder="media" destination="templates/{{clientNameLowercase}}/{{extensionNameLowercase}}">
+	<media folder="media" destination="templates/{{clientNameLowerCase}}/{{extensionNameLowerCase}}">
 		<folder>css</folder>
 		<folder>js</folder>
 		<folder>images</folder>

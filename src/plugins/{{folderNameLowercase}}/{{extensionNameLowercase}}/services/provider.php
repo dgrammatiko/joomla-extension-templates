@@ -35,7 +35,7 @@ return new class implements ServiceProviderInterface
                 $dispatcher = $container->get(DispatcherInterface::class);
                 $plugin     = new {{extensionNamePascal}}(
                     $dispatcher,
-                    (array) PluginHelper::getPlugin('{{folderNameLowercase}}', '{{extensionNameLowercase}}')
+                    (array) PluginHelper::getPlugin('{{folderNameLowerCase}}', '{{extensionNameLowerCase}}')
                 );
                 $plugin->setApplication(Factory::getApplication());
                 $plugin->setDatabase($container->get(DatabaseInterface::class));

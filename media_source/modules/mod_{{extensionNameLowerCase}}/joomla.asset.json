@@ -1,14 +1,14 @@
 {
   "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "mod_{{extensionNameLowercase}}",
+  "name": "mod_{{extensionNameLowerCase}}",
   "version": "0.0.0",
   "description": "",
   "license": "GPL-2.0-or-later",
   "assets": [
     {
-      "name": "mod_{{extensionNameLowercase}}.index",
+      "name": "mod_{{extensionNameLowerCase}}.index",
       "type": "script",
-      "uri": "mod_{{extensionNameLowercase}}/index.min.js",
+      "uri": "mod_{{extensionNameLowerCase}}/index.min.js",
       "dependencies": [
         "core"
       ],
@@ -17,9 +17,9 @@
       }
     },
     {
-      "name": "mod_{{extensionNameLowercase}}.index",
+      "name": "mod_{{extensionNameLowerCase}}.index",
       "type": "style",
-      "uri": "mod_{{extensionNameLowercase}}/index.min.css"
+      "uri": "mod_{{extensionNameLowerCase}}/index.min.css"
     }
   ]
 }
