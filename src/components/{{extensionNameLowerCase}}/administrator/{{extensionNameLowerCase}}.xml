@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" method="upgrade" element="com_{{extensionNameLowerCase}}">
-	<name>com_{{extensionNameLowerCase}}</name>
-	<element>com_{{extensionNameLowerCase}}</element>
-	<author>{{authorName}}</author>
-	<creationDate>{{date}}</creationDate>
-	<copyright>{{copyright}}</copyright>
-	<license>{{license}}</license>
-	<authorEmail>{{authorEmail}}</authorEmail>
-	<authorUrl>{{authorWebsite}}</authorUrl>
-	<version>{{version}}</version>
-	<description>COM_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
-	<namespace path="src">{{companyNamePascal}}\Component\{{extensionNamePascal}}</namespace>
-	<files folder="site">
-		<folder>src</folder>
-		<folder>tmpl</folder>
-		<folder>language</folder>
-	</files>
-	<media folder="media" destination="com_{{extensionNameLowerCase}}">
-		<folder>js</folder>
-		<folder>css</folder>
-		<folder>images</folder>
-		<filename>joomla.asset.json</filename>
-	</media>
-	<administration>
-		<files folder="administrator">
-			<folder>services</folder>
-			<folder>language</folder>
-		</files>
-	</administration>
+  <name>com_{{extensionNameLowerCase}}</name>
+  <element>com_{{extensionNameLowerCase}}</element>
+  <author>{{authorName}}</author>
+  <creationDate>{{date}}</creationDate>
+  <copyright>{{copyright}}</copyright>
+  <license>{{license}}</license>
+  <authorEmail>{{authorEmail}}</authorEmail>
+  <authorUrl>{{authorWebsite}}</authorUrl>
+  <version>{{version}}</version>
+  <description>COM_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
+  <namespace path="src">{{companyNamePascal}}\Component\{{extensionNamePascal}}</namespace>
+  <files folder="site">
+    <folder>src</folder>
+    <folder>tmpl</folder>
+    <folder>language</folder>
+  </files>
+  <media folder="media" destination="com_{{extensionNameLowerCase}}">
+    <folder>js</folder>
+    <folder>css</folder>
+    <folder>images</folder>
+    <filename>joomla.asset.json</filename>
+  </media>
+  <administration>
+    <files folder="administrator">
+      <folder>services</folder>
+      <folder>language</folder>
+    </files>
+  </administration>
 </extension>

@@ -38,7 +38,6 @@ return new class implements ServiceProviderInterface
                     (array) PluginHelper::getPlugin('{{folderNameLowerCase}}', '{{extensionNameLowerCase}}')
                 );
                 $plugin->setApplication(Factory::getApplication());
-                $plugin->setDatabase($container->get(DatabaseInterface::class));
 
                 return $plugin;
             }

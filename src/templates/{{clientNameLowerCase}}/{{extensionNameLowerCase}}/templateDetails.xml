@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" client="{{clientNameLowerCase}}" method="upgrade">
-	<name>{{extensionNameLowerCase}}</name>
-	<author>{{authorName}}</author>
-	<creationDate>{{date}}</creationDate>
-	<copyright>{{year}} {{authorName}}, All Rights Reserved.</copyright>
-	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-	<authorEmail>{{authorEmail}}</authorEmail>
-	<authorUrl>{{authorWebsite}}</authorUrl>
-	<version>0.0.1</version>
-	<description>TPL_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
-	<inheritable>1</inheritable>
-	<files>
-		<folder>html</folder>
-		<folder>language</folder>
-		<filename>index.php</filename>
-		<filename>error.php</filename>
-		<filename>joomla.asset.json</filename>
-		<filename>templateDetails.xml</filename>
-	</files>
-	<media folder="media" destination="templates/{{clientNameLowerCase}}/{{extensionNameLowerCase}}">
-		<folder>css</folder>
-		<folder>js</folder>
-		<folder>images</folder>
-	</media>
-	<positions>
-		<position>header</position>
-		<position>debug</position>
-		<position>footer</position>
-	</positions>
+  <name>{{extensionNameLowerCase}}</name>
+  <author>{{authorName}}</author>
+  <creationDate>{{date}}</creationDate>
+  <copyright>{{year}} {{authorName}}, All Rights Reserved.</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>{{authorEmail}}</authorEmail>
+  <authorUrl>{{authorWebsite}}</authorUrl>
+  <version>0.0.1</version>
+  <description>TPL_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
+  <inheritable>1</inheritable>
+  <files>
+    <folder>html</folder>
+    <folder>language</folder>
+    <filename>index.php</filename>
+    <filename>error.php</filename>
+    <filename>joomla.asset.json</filename>
+    <filename>templateDetails.xml</filename>
+  </files>
+  <media folder="media" destination="templates/{{clientNameLowerCase}}/{{extensionNameLowerCase}}">
+    <folder>css</folder>
+    <folder>js</folder>
+    <folder>images</folder>
+  </media>
+  <positions>
+    <position>header</position>
+    <position>debug</position>
+    <position>footer</position>
+  </positions>
 </extension>

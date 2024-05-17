@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" client="{{clientNameLowerCase}}" method="upgrade">
-	<name>mod_{{extensionNameLowerCase}}</name>
-	<author>{{authorName}}</author>
-	<creationDate>{{date}}</creationDate>
-	<copyright>{{copyright}}</copyright>
-	<license>{{license}}</license>
-	<authorEmail>{{authorEmail}}</authorEmail>
-	<authorUrl>{{authorWebsite}}</authorUrl>
-	<version>{{version}}</version>
-	<description>MOD_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
-	<namespace path="src">{{companyNamePascal}}\Module\{{extensionNamePascal}}</namespace>
-	<files>
-		<folder module="mod_{{extensionNameLowerCase}}">services</folder>
-		<folder>src</folder>
-		<folder>language</folder>
-		<folder>tmpl</folder>
-	</files>
-	<media folder="media" destination="mod_{{extensionNameLowerCase}}">
-		<folder>js</folder>
-		<folder>css</folder>
-		<folder>images</folder>
-		<filename>joomla.asset.json</filename>
-	</media>
-	<config>
-		<fields name="params">
-			<fieldset name="options" label="Basic">
-			</fieldset>
-			<fieldset name="advanced">
-			</fieldset>
-		</fields>
-	</config>
+  <name>mod_{{extensionNameLowerCase}}</name>
+  <author>{{authorName}}</author>
+  <creationDate>{{date}}</creationDate>
+  <copyright>{{copyright}}</copyright>
+  <license>{{license}}</license>
+  <authorEmail>{{authorEmail}}</authorEmail>
+  <authorUrl>{{authorWebsite}}</authorUrl>
+  <version>{{version}}</version>
+  <description>MOD_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
+  <namespace path="src">{{companyNamePascal}}\Module\{{extensionNamePascal}}</namespace>
+  <files>
+    <folder module="mod_{{extensionNameLowerCase}}">services</folder>
+    <folder>src</folder>
+    <folder>language</folder>
+    <folder>tmpl</folder>
+  </files>
+  <media folder="media" destination="mod_{{extensionNameLowerCase}}">
+    <folder>js</folder>
+    <folder>css</folder>
+    <folder>images</folder>
+    <filename>joomla.asset.json</filename>
+  </media>
+  <config>
+    <fields name="params">
+      <!-- <fieldset name="options" label="Basic"></fieldset> -->
+      <!-- <fieldset name="advanced"></fieldset> -->
+    </fields>
+  </config>
 </extension>
