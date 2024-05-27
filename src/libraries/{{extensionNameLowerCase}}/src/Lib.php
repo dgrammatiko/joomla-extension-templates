@@ -12,6 +12,10 @@ class {{extensionNamePascal}}
 {
   public function test(): array
   {
+    // Register the library assets
+    $wa = $this->getApplication()->getDocument()->getWebAssetManager();
+    $wa->getRegistry()->addExtensionRegistryFile('lib_{{extensionNameLowerCase}}');
+
     return ['test' => true];
   }
 }

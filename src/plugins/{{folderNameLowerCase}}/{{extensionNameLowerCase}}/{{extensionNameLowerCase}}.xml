@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="{{folderNameLowerCase}}" method="upgrade">
   <name>plg_{{folderNameLowerCase}}_{{extensionNameLowerCase}}</name>
+  <element>{{extensionNameLowerCase}}</element>
   <author>{{authorName}}</author>
   <creationDate>{{date}}</creationDate>
   <copyright>{{copyright}}</copyright>
@@ -8,19 +9,22 @@
   <authorEmail>{{authorEmail}}</authorEmail>
   <authorUrl>{{authorWebsite}}</authorUrl>
   <version>{{version}}</version>
-  <description>PLG_{{folderNamePascal}}_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
+  <description>PLG_{{folderNameUpperCase}}_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Plugin\{{folderNamePascal}}\{{extensionNamePascal}}</namespace>
+
   <files>
     <folder plugin="{{extensionNameLowerCase}}">services</folder>
     <folder>src</folder>
     <folder>language</folder>
   </files>
+
   <media folder="media" destination="plg_{{folderNameLowerCase}}_{{extensionNameLowerCase}}">
     <folder>js</folder>
     <folder>css</folder>
     <folder>images</folder>
     <filename>joomla.asset.json</filename>
   </media>
+
   <config>
     <fields name="params">
       <fieldset name="basic">

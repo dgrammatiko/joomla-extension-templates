@@ -7,7 +7,6 @@ function renderMessage(data) {
 }
 
 function testajax(e) {
-  e.preventDefault();
   const button = e.currentTarget;
   fetch(new URL(button.dataset.url))
     .then((response) => response.json())
@@ -15,4 +14,4 @@ function testajax(e) {
     .catch((error) => renderMessage({ error: error.message }));
 }
 
-document.querySelectorAll('button.mod_testajax').forEach((button) => button.addEventListener('click', (e) => testajax(e)));
+document.querySelectorAll("button.mod_{{extensionNameLowerCase}}ajax").forEach((button) => button.addEventListener("click", testajax));

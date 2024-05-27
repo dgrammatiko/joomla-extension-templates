@@ -1,1 +1,1 @@
-console.log('Hello from {{extensionNamePascal}}');
+console.log('Hello from lib_{{extensionNamePascal}}');

@@ -2,6 +2,7 @@
 <extension type="library" method="upgrade">
   <name>lib_{{extensionNameLowerCase}}</name>
   <libraryname>{{extensionNameLowerCase}}</libraryname>
+  <element>{{extensionNameLowerCase}}</element>
   <author>{{authorName}}</author>
   <creationDate>{{date}}</creationDate>
   <copyright>{{copyright}}</copyright>
@@ -11,11 +12,13 @@
   <version>{{version}}</version>
   <description>LIB_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Library\{{extensionNamePascal}}</namespace>
+
   <files>
     <folder library="{{extensionNameLowerCase}}">src</folder>
     <folder>language</folder>
     <filename>{{extensionNameLowerCase}}.xml</filename>
   </files>
+
   <media folder="media" destination="lib_{{extensionNameLowerCase}}">
     <folder>js</folder>
     <folder>css</folder>

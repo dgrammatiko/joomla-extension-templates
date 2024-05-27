@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "description": "Some description",
+  "description": "{{extensionNamePascalCase}} assets definition",
   "license": "GPL-3.0",
   "name": "{{extensionNameLowerCase}}",
   "version": "{{version}}",
@@ -16,18 +16,28 @@
     {
       "name": "template.base",
       "type": "style",
-      "uri": "styles.min.css"
+      "uri": "template.min.css"
     },
     {
       "name": "template.base",
       "type": "script",
-      "uri": "scripts.min.js",
+      "uri": "template.min.js",
       "attributes": {
         "type": "module"
-      },
-      "dependencies": [
-        "core"
-      ]
+      }
+    },
+    {
+      "name": "template.user",
+      "type": "style",
+      "uri": "user.css"
+    },
+    {
+      "name": "template.user",
+      "type": "script",
+      "uri": "template.js",
+      "attributes": {
+        "type": "module"
+      }
     }
   ]
 }

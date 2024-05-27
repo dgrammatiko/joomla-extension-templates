@@ -24,8 +24,7 @@
   </media>
   <config>
     <fields name="params">
-      <!-- <fieldset name="options" label="Basic"></fieldset> -->
-      <!-- <fieldset name="advanced"></fieldset> -->
+      <fieldset name="basic"></fieldset>
     </fields>
   </config>
 </extension>

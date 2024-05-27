@@ -11,17 +11,20 @@
   <version>{{version}}</version>
   <description>COM_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Component\{{extensionNamePascal}}</namespace>
+
   <files folder="site">
     <folder>src</folder>
     <folder>tmpl</folder>
     <folder>language</folder>
   </files>
+
   <media folder="media" destination="com_{{extensionNameLowerCase}}">
     <folder>js</folder>
     <folder>css</folder>
     <folder>images</folder>
     <filename>joomla.asset.json</filename>
   </media>
+
   <administration>
     <files folder="administrator">
       <folder>services</folder>

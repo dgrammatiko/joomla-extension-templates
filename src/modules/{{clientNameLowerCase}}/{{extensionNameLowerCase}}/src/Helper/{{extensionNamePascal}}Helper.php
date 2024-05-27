@@ -13,7 +13,7 @@ use Joomla\CMS\Factory;
 
 class {{extensionNamePascal}}Helper
 {
-  public static function testAjax(): array
+  public static function {{extensionNameLowerCase}}Ajax(): array
   {
     // Consider checking the token!
     // $app = Factory::getApplication();
