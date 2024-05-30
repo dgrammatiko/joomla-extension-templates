@@ -7,7 +7,7 @@
 
 defined('_JEXEC') || die();
 
-use Joomla\CMS\Router\Route;
+use Joomla\CMS\Uri\Uri;
 
 /** @var $app \Joomla\CMS\Application\CMSApplication */
 $app->getDocument()->getWebAssetManager()
@@ -24,6 +24,6 @@ $app->getDocument()->getWebAssetManager()
  * DO NOT CONSTRUCT JS INLINE IN PHP FILES! it's a major anti-pattern!
  */
 
-$dataUrl = Route::_('index.php?option=com_ajax&format=json&module={{extensionNameLowerCase}}&method={{extensionNameLowerCase}}&1=' . $app->getSession()->getFormToken(), false, Route::TLS_IGNORE, true);
+$dataUrl = Uri::base() . 'index.php?option=com_ajax&format=json&module=test&method=test&1=' . $app->getSession()->getFormToken();
 
-echo '<br><hr><p><button class="btn btn-primary mod_{{extensionNameLowerCase}}ajax" type="button" data-url="' . $dataUrl . '">Test module {{extensionNameLowerCase}} AJAX</button></p><hr><br>';
+echo '<br><hr><p><button class="btn btn-primary mod_testajax" data-url="' . $dataUrl . '">Test module test AJAX</button></p><hr><br>';
