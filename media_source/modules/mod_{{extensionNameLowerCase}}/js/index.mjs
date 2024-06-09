@@ -6,7 +6,7 @@ function renderMessage(data) {
   Joomla.renderMessages({ info: [data.message] });
 }
 
-function testajax(e) {
+function ajax(e) {
   const button = e.currentTarget;
   fetch(new URL(button.dataset.url))
     .then((response) => response.json())
@@ -14,4 +14,4 @@ function testajax(e) {
     .catch((error) => renderMessage({ error: error.message }));
 }
 
-document.querySelectorAll("button.mod_{{extensionNameLowerCase}}ajax").forEach((button) => button.addEventListener("click", testajax));
+document.querySelectorAll("button.mod_{{extensionNameLowerCase}}_ajax").forEach((button) => button.addEventListener("click", ajax));

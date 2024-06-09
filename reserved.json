@@ -8,15 +8,49 @@
     "contenthistory",
     "fields",
     "finder",
-    "mailto",
     "media",
     "menus",
     "modules",
     "newsfeeds",
     "privacy",
-    "search",
     "tags",
     "users",
+    "wrapper",
+    "actionlogs",
+    "admin",
+    "ajax",
+    "associations",
+    "banners",
+    "cache",
+    "categories",
+    "checkin",
+    "config",
+    "contact",
+    "content",
+    "contenthistory",
+    "cpanel",
+    "fields",
+    "finder",
+    "guidedtours",
+    "installer",
+    "joomlaupdate",
+    "languages",
+    "login",
+    "mails",
+    "media",
+    "menus",
+    "messages",
+    "modules",
+    "newsfeeds",
+    "plugins",
+    "postinstall",
+    "privacy",
+    "redirect",
+    "scheduler",
+    "tags",
+    "templates",
+    "users",
+    "workflow",
     "wrapper"
   ],
   "libraries": [
@@ -27,10 +61,56 @@
   ],
   "modules": {
     "administrator": [
-      "menu"
+      "custom",
+      "feed",
+      "frontend",
+      "guidedtours",
+      "latest",
+      "latestactions",
+      "logged",
+      "login",
+      "loginsupport",
+      "menu",
+      "messages",
+      "multilangstatus",
+      "popular",
+      "post_installation_messages",
+      "privacy_dashboard",
+      "privacy_status",
+      "quickicon",
+      "sampledata",
+      "stats_admin",
+      "submenu",
+      "title",
+      "toolbar",
+      "user",
+      "version"
     ],
     "site": [
-      "menu"
+      "articles_archive",
+      "articles_categories",
+      "articles_category",
+      "articles_latest",
+      "articles_news",
+      "articles_popular",
+      "banners",
+      "breadcrumbs",
+      "custom",
+      "feed",
+      "finder",
+      "footer",
+      "languages",
+      "login",
+      "menu",
+      "random_image",
+      "related_items",
+      "stats",
+      "syndicate",
+      "tags_popular",
+      "tags_similar",
+      "users_latest",
+      "whosonline",
+      "wrapper"
     ]
   },
   "plugins": {
@@ -47,13 +127,11 @@
       "ldap"
     ],
     "behaviour": [
+      "compat",
       "taggable",
       "versionable"
     ],
-    "captcha": [
-      "recaptcha",
-      "recaptcha_invisible"
-    ],
+    "captcha": [],
     "content": [
       "confirmconsent",
       "contact",
@@ -143,6 +221,7 @@
     ],
     "quickicon": [
       "downloadkey",
+      "eos",
       "extensionupdate",
       "joomlaupdate",
       "overridecheck",
@@ -151,8 +230,18 @@
     ],
     "sampledata": [
       "blog",
-      "multilang",
-      "testing"
+      "multilang"
+    ],
+    "schemaorg": [
+      "article",
+      "blogposting",
+      "book",
+      "custom",
+      "event",
+      "jobposting",
+      "organization",
+      "person",
+      "recipe"
     ],
     "system": [
       "accessibility",
@@ -160,6 +249,7 @@
       "cache",
       "debug",
       "fields",
+      "guidedtours",
       "highlight",
       "httpheaders",
       "jooa11y",
@@ -167,25 +257,28 @@
       "languagefilter",
       "log",
       "logout",
-      "logrotation",
       "privacyconsent",
       "redirect",
       "remember",
       "schedulerunner",
+      "schemaorg",
       "sef",
-      "sessiongc",
       "shortcut",
       "skipto",
       "stats",
       "tasknotification",
-      "updatenotification",
       "webauthn"
     ],
     "task": [
       "checkfiles",
-      "demotasks",
+      "deleteactionlogs",
+      "globalcheckin",
+      "privacyconsent",
       "requests",
-      "sitestatus"
+      "rotatelogs",
+      "sessiongc",
+      "sitestatus",
+      "updatenotification"
     ],
     "user": [
       "contactcreator",
@@ -221,10 +314,12 @@
   },
   "templates": {
     "administrator": [
-        "atum"
-      ],
+      "atum",
+      "system"
+    ],
     "site": [
-        "cassiopeia"
-      ]
+      "cassiopeia",
+      "system"
+    ]
   }
 }

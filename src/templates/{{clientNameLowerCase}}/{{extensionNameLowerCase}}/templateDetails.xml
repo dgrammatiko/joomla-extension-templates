@@ -12,6 +12,7 @@
   <description>TPL_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Template\{{folderNamePascal}}\{{extensionNamePascal}}</namespace>
   <inheritable>1</inheritable>
+  <scriptfile>scriptfile.php</scriptfile>
 
   <files>
     <folder>html</folder>
@@ -19,6 +20,7 @@
     <filename>index.php</filename>
     <filename>component.php</filename>
     <filename>error.php</filename>
+    <filename>offline.php</filename>
     <filename>joomla.asset.json</filename>
     <filename>templateDetails.xml</filename>
   </files>

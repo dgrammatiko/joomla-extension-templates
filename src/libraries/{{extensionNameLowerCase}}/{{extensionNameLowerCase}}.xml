@@ -12,6 +12,7 @@
   <version>{{version}}</version>
   <description>LIB_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Library\{{extensionNamePascal}}</namespace>
+  <scriptfile>scriptfile.php</scriptfile>
 
   <files>
     <folder library="{{extensionNameLowerCase}}">src</folder>

@@ -11,6 +11,7 @@
   <version>{{version}}</version>
   <description>PLG_{{folderNameUpperCase}}_{{extensionNameUpperCase}}_XML_DESCRIPTION</description>
   <namespace path="src">{{companyNamePascal}}\Plugin\{{folderNamePascal}}\{{extensionNamePascal}}</namespace>
+  <scriptfile>scriptfile.php</scriptfile>
 
   <files>
     <folder plugin="{{extensionNameLowerCase}}">services</folder>

@@ -24,6 +24,6 @@ $app->getDocument()->getWebAssetManager()
  * DO NOT CONSTRUCT JS INLINE IN PHP FILES! it's a major anti-pattern!
  */
 
-$dataUrl = Uri::base() . 'index.php?option=com_ajax&format=json&module=test&method=test&1=' . $app->getSession()->getFormToken();
+$dataUrl = Uri::base() . 'index.php?option=com_ajax&format=json&module={{extensionNameLowerCase}}&method={{extensionNameLowerCase}}&1=' . $app->getSession()->getFormToken();
 
-echo '<br><hr><p><button class="btn btn-primary mod_testajax" data-url="' . $dataUrl . '">Test module test AJAX</button></p><hr><br>';
+echo '<br><hr><p><button class="btn btn-primary mod_{{extensionNameLowerCase}}_ajax" data-url="' . $dataUrl . '">Test module test AJAX</button></p><hr><br>';
