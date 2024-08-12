@@ -13,6 +13,8 @@ use Joomla\Utilities\ArrayHelper;
 
 extract($displayData, EXTR_OVERWRITE);
 
+LayoutHelper::render('head', $displayData, JPATH_BASE . '/templates/{{extensionNameLowerCase}}/html/layouts/{{extensionNameLowerCase}}/partials');
+
 $liveParams = $doc->params->get('liveParams');
 ?>
 <!doctype html>
